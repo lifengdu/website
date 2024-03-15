@@ -1,0 +1,68 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="table.html">
+<title>table</title>
+<head>
+<body>
+
+<div style="page-break-after: always;">
+	<span style="display: none;">&nbsp;</span></div>
+<div style="page-break-after: always;">
+	<span style="display: none;">&nbsp;</span></div>
+<p style="text-align: center;">
+	<span style="text-align: center; color: rgb(255, 0, 0);"><span style="font-size:24px;">simple of table</span></span><span style="text-align: center;">​</span></p>
+<ol>
+</ol>
+<form action="https://edqaa.com/t/Echo" enctype="application/x-www-form-urlencoded" id="f1" method="post" name="f1" target="_blank">
+	<table align="center" border="1" cellpadding="4" cellspacing="3" style="width:500px;background:t20240108124052.png">
+		<caption>
+			applicant form</caption>
+		<tbody>
+			<tr>
+				<td>
+					studentnumber</td>
+				<td>
+					<input maxlength="11" name="sid" type="text" /></td>
+			</tr>
+			<tr>
+				<td>
+					last name</td>
+				<td>
+					<input maxlength="11" name="sid1" type="text" /></td>
+			</tr>
+			<tr>
+				<td>
+					first name</td>
+				<td>
+					<input maxlength="11" name="sid2" type="text" /></td>
+			</tr>
+			<tr>
+				<td>
+					age</td>
+				<td>
+					<select name="age"><option value="11">11year</option><option value="12">12year</option><option value="13">12year</option></select></td>
+			</tr>
+			<tr>
+				<td>
+					major</td>
+				<td>
+					<input name="major" type="radio" value="SIC" />SIC&nbsp; &nbsp;<input name="MAJOR" type="radio" value="math" /> Math</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="submit" type="submit" value="submit" /></td>
+			</tr>
+		</tbody>
+	</table>
+	<p>
+		&nbsp;</p>
+</form>
+<p>
+	&nbsp;</p>
+</body>
+</html>
+{
+   color:#555555;
+   font-family:Comic Sans MS,cursive,sans-serif;
+   font-size:20px
+}
