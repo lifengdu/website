@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .heart {
+            display: inline-block;
+            width:50px;
+            height: 60px;
+            position: relative;
+            transform: rotate(-45deg);
+            overflow: hidden;
+        }
+
+        .heart:before,
+        .heart:after {
+            content: "";
+            position: absolute;
+            width: 42px;
+            height: 60px; 
+            background-color: red;
+            border-radius: 50% 50% 0 0 / 50% 50% 0 0;
+            top: 0;
+            left: 50%;
+        }
+
+        .heart:before {
+            transform: translate(-40%, -40%) rotate(-45deg);
+        }
+
+        .heart:after {
+            transform: translate(-40%, -40%) rotate(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="heart"></div>
+</body>
+</html>
